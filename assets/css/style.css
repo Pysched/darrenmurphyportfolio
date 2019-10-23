@@ -67,6 +67,12 @@ h2{
 
 #CV{
 	padding:3rem;
-	height:100vh;
+	height:50vh;
 	background-color:#00B0AD;
+}
+
+footer{
+	background-color:#3a3a3a;
+	height:40vh;
+	padding:3rem;
 }
