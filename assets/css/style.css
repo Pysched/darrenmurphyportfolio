@@ -1,0 +1,65 @@
+
+
+
+/*------------Body-----------*/
+body {
+	
+	font-family:'Roboto', sans-serif;
+}
+/*------------Landing Area-----------*/
+h2{
+	color:white;
+}
+
+.container-top{
+	height:90vh;
+	padding:3rem;
+}
+
+.landing-bio{
+	margin-top:150px;
+}
+
+/*------------NAvbar-----------*/
+.jumbotron {
+	padding:0;
+}
+
+/*------------About Section-----------*/
+
+#About{
+	padding:3rem;
+	height:100vh;
+	background-color:#004F50;
+}
+
+/*------------Work Section-----------*/
+
+#Work{
+	padding:3rem;
+	height:100vh;
+	background-color:#222944;
+}
+
+/*------------Skills Section-----------*/
+
+#Skills{
+	padding:3rem;
+	height:100vh;
+	background-color:#00AF86;
+}
+
+/*------------Contact Section-----------*/
+#Contact{
+	padding:3rem;
+	height:100vh;
+	background-color:#E27F26;
+}
+
+/*------------CV Section-----------*/
+
+#CV{
+	padding:3rem;
+	height:100vh;
+	background-color:#00B0AD;
+}
