@@ -17,7 +17,7 @@ function scrollFunction() {
 }
 
 // Function that makes the page scroll back to the top when pressed
-function topfunction() {
+function topFunction() {
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
 }
