@@ -107,16 +107,21 @@ body {
 
 /*------------About Section-----------*/
 
-#About{
-	padding:3rem;
+#about {
 	height:100vh;
-	background-color:#004F50;
+	background-color:#3a3a3a;
+	color:#fff;
 }
 
+#about h1 {
+	padding:2.5rem 1.3rem;
+	top:50px;
+	
+}
 .about-me {
-	padding-top: 30px;
-	color:white;
-	font-size: 1.2em;
+	padding:.6rem 1.3rem;
+	font-weight:lighter;
+	font-size:1rem;
 }
 
 /*------------Work Section-----------*/
