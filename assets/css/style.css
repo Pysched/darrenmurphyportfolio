@@ -37,26 +37,46 @@ body {
 
 
 /*------------Landing Area-----------*/
-h2{
-	color:white;
-	font-weight:bold;
+.home-filter {
+	background-color:rgba(56, 54, 54, 0.88) !important;
+	 
+}
+.caption {
+	width:100%;
+	max-width:100%;
+	position:absolute;
+	top:50%;
+	z-index:1;
+	color:#E27F26;
+	text-transform: uppercase;
 }
 
-.container-top{
-	height:90vh;
+.caption h1 {
+	font-size:3.8rem;
+	font-weight: 700;
+	letter-spacing:.3rem;
+	text-shadow:.1rem .1rem .8rem black;
+	padding-bottom:1rem;
 }
 
-.landing-bio{
-    position: absolute;
-    top: 150px;
-    left: 95px;
-    color:white;
-
+.caption h3{
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom:1.0rem;
 }
 
-#landing-image{
-	object-fit: cover;
-	width: -webkit-fill-available;
+.btn-lg {
+	color:#00AF86;
+	border-width:medium;
+	border-radius: 0;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+}
+
+.btn-outline-light {
+	color:#E27F26;
+	background-color:#00AF86;
+	border-color:#00AF86;
 }
 
 
