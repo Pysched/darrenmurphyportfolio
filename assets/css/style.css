@@ -1,17 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500,700&display=swap');
+
+
 /*------------HTML-----------*/
 html {
   scroll-behavior: smooth;
 }
 
 
-/*------------Body-----------*/
 body {
-	margin:0;
-	padding:0;
-	position:relative;
 	overflow-x: hidden;
 	font-family: 'Ubuntu', sans-serif;
 	color:#505962;
+
+}
+
+
+/*---Navigation--*/
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:.9rem;
+	letter-spacing: .1rem;
+	background-color:rgba(0,0,0,0.6)!important;
+}
+
+.navbar-nav li {
+	padding-right:.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color:#fff;
+	padding-top:.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#E27F26;
 }
 
 /*------------Back To Top Button-----------*/
@@ -35,8 +59,8 @@ body {
   background-color: #555;
 }
 
+/*--Landing Page--*/
 
-/*------------Landing Area-----------*/
 .home-filter {
 	background-color:rgba(56, 54, 54, 0.88) !important;
 	 
@@ -79,33 +103,7 @@ body {
 	border-color:#00AF86;
 }
 
-
-/*------------Navigation-----------*/
-.navbar{
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size:.9rem;
-	letter-spacing: .1rem;
-	background-color:rgba(0,0,0,0.6)!important;
-}
-
-.navbar-nav li {
-	padding-right:.7rem;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-	color:#fff;
-	padding-top:.8rem;
-}
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
-	color:#E27F26;
-}
-
-
-
-/*------------About Section-----------*/
+/*------About-me------*/
 
 #about {
 	height:100vh;
@@ -124,39 +122,54 @@ body {
 	font-size:1rem;
 }
 
-/*------------Work Section-----------*/
+/*------Work------*/
 
-#Work{
-	padding:3rem;
+#work{
 	height:100vh;
-	background-color:#222944;
+	background-color:#E27F26;
+	
+}
+#work h1 {
+	padding:2.5rem 1.3rem;
+	top:50px;
+	color:#fff;
 }
 
-/*------------Skills Section-----------*/
+/*------Skills------*/
 
-#Skills{
-	padding:3rem;
+#skills{
 	height:100vh;
 	background-color:#00AF86;
 }
 
-/*------------Contact Section-----------*/
-#Contact{
-	padding:3rem;
+#skills h1{
+	padding:2.5rem 1.3rem;
+	top:50px;
+	color:#fff;
+}
+
+/*------Contact------*/
+
+#contact{
 	height:100vh;
-	background-color:#E27F26;
+	background-color:green;
+
 }
 
-/*------------CV Section-----------*/
+#contact h1 {
+	padding:2.5rem 1.3rem;
+	top:50px;
+	color:#fff;
+}
 
-#CV{
-	padding:3rem;
+/*------CV------*/
+
+#cv{
 	height:50vh;
-	background-color:#00B0AD;
-}
-
-footer{
 	background-color:#3a3a3a;
-	height:40vh;
-	padding:3rem;
+}
+#cv h1 {
+	padding:2.5rem 1.3rem;
+	top:50px;
+	color:#fff;
 }
