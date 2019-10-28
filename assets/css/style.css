@@ -61,15 +61,22 @@ body {
 
 /*--Landing Page--*/
 
-.home-filter {
-	background-color:rgba(56, 54, 54, 0.88) !important;
-	 
+#landing-img {
+	background-attachment: fixed;
+    background-image: url('../images/landing2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
 }
+
 .caption {
 	width:100%;
 	max-width:100%;
 	position:absolute;
-	top:50%;
+	top:30%;
 	z-index:1;
 	color:#fff;
 	text-transform: uppercase;
@@ -105,10 +112,15 @@ body {
 
 /*------About-me------*/
 
-#about {
-	height:100vh;
+#about 
+	/*{background-image: url('../images/profile7.jpg');
+	background-position: center;
+	background-size: cover;*/
+	{
+	width: 100vw;
 	background-color:#3a3a3a;
 	color:#fff;
+	width:100vw;
 }
 
 #about-space{
@@ -124,15 +136,17 @@ body {
 	padding-top:80px;
 	font-weight:lighter;
 	font-size:1.1rem;
+	padding-bottom: 50px;
 }
+p {margin-bottom:0;}
 
 /*------Work------*/
 
 #work{
 	height:100vh;
 	background-color:#E27F26;
-	
 }
+
 #work h1 {
 	padding:2.5rem 1.3rem;
 	
