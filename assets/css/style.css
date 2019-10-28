@@ -71,7 +71,7 @@ body {
 	position:absolute;
 	top:50%;
 	z-index:1;
-	color:#E27F26;
+	color:#fff;
 	text-transform: uppercase;
 }
 
@@ -111,15 +111,19 @@ body {
 	color:#fff;
 }
 
-#about h1 {
-	padding:2.5rem 1.3rem;
-	top:50px;
-	
+#about-space{
+	padding-top:80px;	
 }
+
+#about h1 {
+	padding-left:20px;
+}
+
 .about-me {
-	padding:.6rem 1.3rem;
+	padding-left:20px;
+	padding-top:80px;
 	font-weight:lighter;
-	font-size:1rem;
+	font-size:1.1rem;
 }
 
 /*------Work------*/
@@ -131,8 +135,12 @@ body {
 }
 #work h1 {
 	padding:2.5rem 1.3rem;
-	top:50px;
+	
 	color:#fff;
+}
+
+#work-space {
+	padding-top:50px;
 }
 
 /*------Skills------*/
@@ -146,6 +154,9 @@ body {
 	padding:2.5rem 1.3rem;
 	top:50px;
 	color:#fff;
+}
+#skills-space{
+	padding-top:50px;
 }
 
 /*------Contact------*/
@@ -162,6 +173,10 @@ body {
 	color:#fff;
 }
 
+#contact-space{
+	padding-top:50px;
+}
+
 /*------CV------*/
 
 #cv{
@@ -172,4 +187,8 @@ body {
 	padding:2.5rem 1.3rem;
 	top:50px;
 	color:#fff;
+}
+
+#cv-space{
+	padding-top:50px;
 }
