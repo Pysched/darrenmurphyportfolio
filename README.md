@@ -2,6 +2,7 @@
 Stream One Project: User-Centric Frontend Development - Code Institute 
 For this project, I created a portfolio website for the purpose of promoting my skills, abilities and identity to prospective employers. The portfolio showcases a number (4-6) of projects that represent the variety of skills and abilities that I both offer and have developed. It also includes a snapshot of my biography, personality, education, coding skills and multimedia skillsets.  
 ## Demo
+A demo of the site is available here: https://pysched.github.io/darrenmurphyportfolio/index.html#about 
 ## UX
 In the design of this site, my aim was to deliver a simple, minimal yet elegant website that presents information in an easy to view, understand and logical presentation. The development of the colour palette was designed to complement this approach. 
 Colour Scheme to be developed and iterated on to understand how it all could work together. This will include paying attention to accessibility concerns such as colour contract and usability concerns of being aware/unaware of hover states and interaction capabilities.
