@@ -48,7 +48,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #E27F26;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -59,11 +59,19 @@ body {
   background-color: #555;
 }
 
+.btn.btn-danger {
+  border: none;
+  outline: none;
+  background-color: #E27F26;
+  color: white;
+  cursor: pointer;
+}
+
 /*--Landing Page--*/
 
 #landing-img {
+	 background-image: linear-gradient(#252525, #656565);
 	background-attachment: fixed;
-    background-image: url('../images/landing2.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -113,15 +121,13 @@ body {
 /*------About-me------*/
 
 #about 
-	/*{background-image: url('../images/profile7.jpg');
+	{background-image: url('../images/profile1.png');
 	background-position: center;
-	background-size: cover;*/
-	{
+	background-size: cover;
 	width: 100vw;
-	background-color:#3a3a3a;
-	color:#fff;
-	width:100vw;
-}
+	background-color:#fff;
+	color:#3a3a3a;
+	}
 
 #about-space{
 	padding-top:80px;	
@@ -161,7 +167,17 @@ p {margin-bottom:0;}
 
 #skills{
 	height:100vh;
-	background-color:#00AF86;
+	background-color:#3a3a3a;
+	height:100vh;
+	 background-image: linear-gradient(#252525, #656565);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: bottom;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
 }
 
 #skills h1{
@@ -177,12 +193,21 @@ p {margin-bottom:0;}
 
 #contact{
 	height:100vh;
-	background-color:green;
+	background-image: url('../images/phone.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: bottom;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
 
 }
 
 #contact h1 {
-	padding:2.5rem 1.3rem;
+	padding-top:2.5rem;
+	padding-bottom:2.5rem;
 	top:50px;
 	color:#fff;
 }
@@ -206,3 +231,77 @@ p {margin-bottom:0;}
 #cv-space{
 	padding-top:50px;
 }
+
+
+.modal-body {
+    font-size: 1.15em;
+}
+
+.btn-default {
+    background-color: #ccc;
+}
+
+
+
+/*-----------Horizontal line--------*/
+.line { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0); 
+}
+
+
+/*------------Modal ----------*/
+.modal-backdrop.fade {
+    opacity: .5;
+}
+.fade:not(.show) {
+     opacity: 1;
+}
+
+.modal.show .modal-dialog {
+	top:30%;
+}
+
+/*---------Cards About Me----*/
+.aboutme{
+	display:flex;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#accordion{
+	display:flex;
+}
+
+.card {	
+    background-color: #fdfdfd;
+    border-radius: 2.5%;
+    opacity: 0.8;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+	#accordion {
+		display: block;
+
+	}
+	.card{display:block;}
+	}
+
+button.btn.btn-link{
+	text-align: center;
+}
+
