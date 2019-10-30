@@ -70,7 +70,8 @@ body {
 /*--Landing Page--*/
 
 #landing-img {
-	 background-image:url('../images/landing1.jpg');
+
+	background-image: url('../images/landing1.jpg');
 	background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
@@ -149,8 +150,20 @@ p {margin-bottom:0;}
 /*------Work------*/
 
 #work{
-	height:100vh;
-	background-color:#E27F26;
+	background-color:#e9ecef;
+	background-image:url('../images/work.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: bottom;
+    height: 120vh;
+    width: 100vw;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+h3{
+	color:#fff;
 }
 
 #work h1 {
@@ -163,31 +176,42 @@ p {margin-bottom:0;}
 	padding-top:50px;
 }
 
+.workcard {
+	padding-left: 2.5rem;
+	padding-top:2.5rem;
+}
+
 /*------Skills------*/
 
 #skills{
 	height:100vh;
-	background-color:#3a3a3a;
-	height:100vh;
-	 background-image: linear-gradient(#252525, #656565);
+	background-color:#181818;	
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
     background-position: bottom;
-    height: 80vh;
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
 }
 
 #skills h1{
-	padding:2.5rem 1.3rem;
+	padding-top:2.5rem;
+	padding-bottom:2.5rem;
 	top:50px;
 	color:#fff;
 }
 #skills-space{
 	padding-top:50px;
 }
+
+#skills-q {
+	margin-top:28px;
+	color:#fff;
+}
+
+.skills-h5 {
+color:#fff;}
 
 /*------Contact------*/
 
@@ -198,7 +222,7 @@ p {margin-bottom:0;}
 	background-size: cover;
 	background-attachment: fixed;
     background-position: bottom;
-    height: 80vh;
+   
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
@@ -219,17 +243,17 @@ p {margin-bottom:0;}
 /*------CV------*/
 
 #cv{
-	height:50vh;
-	background-color:#3a3a3a;
+	height:30vh;
+	background-color:#181818;
 }
 #cv h1 {
 	padding:2.5rem 1.3rem;
-	top:50px;
+	top:25px;
 	color:#fff;
 }
 
 #cv-space{
-	padding-top:50px;
+	padding-top:30px;
 }
 
 
@@ -304,4 +328,87 @@ p {margin-bottom:0;}
 button.btn.btn-link{
 	text-align: center;
 }
+
+
+/*--------social Media icons ------*/
+ /* Style all font awesome icons */
+.fab .fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect  */
+.fab:hover {
+  opacity: 0.7;
+}
+
+
+
+/* Facebook */
+.fa-facebook {
+  background: #3a3a3a;
+  color: white;
+}
+
+.fa-facebook:hover{
+	color:#3B5998;
+}
+
+/* Github */
+.fa-github{
+	background: #3a3a3a;
+  	color: white;
+}
+.fa-github:hover{
+	color:#00b489;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #3a3a3a;
+  color: white;
+} 
+.fa-twitter:hover{
+background: #55ACEE;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #3a3a3a;
+  color: white;
+}
+
+.fa-youtube:hover{
+	color:#bb0000;
+}
+/* Linkedin */
+
+.fa-linkedin-in {
+  background: #3a3a3a;
+  color: white;
+}
+
+.fa-linkedin-in:hover{
+	color: #007bb5;
+}
+
+
+/* Download */
+.fa-file-download {
+	background: #3a3a3a;
+  	color: white;
+}
+
+a {
+    padding: 5px 15px 5px 10px;
+    background-color: transparent;
+}
+
+.alignment {
+    line-height: 2px;
+}
+
 
