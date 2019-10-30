@@ -184,7 +184,7 @@ h3{
 /*------Skills------*/
 
 #skills{
-	height:100vh;
+	height:80vh;
 	background-color:#181818;	
 	background-position: center;
 	background-size: cover;
@@ -216,17 +216,15 @@ color:#fff;}
 /*------Contact------*/
 
 #contact{
-	height:100vh;
+	height:800vh;
 	background-image: url('../images/phone.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-    background-position: bottom;
-   
-    width: 100vw;
-    margin-bottom: 0px;
-    z-index: 1;
-
+    	background-position: bottom;
+       	width: 100vw;
+   	margin-bottom: 0px;
+   	z-index: 1;
 }
 
 #contact h1 {
