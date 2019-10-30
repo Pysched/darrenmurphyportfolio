@@ -70,7 +70,7 @@ body {
 /*--Landing Page--*/
 
 #landing-img {
-	 background-image: linear-gradient(#252525, #656565);
+	 background-image:url('assets/images/landing1.jpg');
 	background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
