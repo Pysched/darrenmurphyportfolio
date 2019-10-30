@@ -70,7 +70,7 @@ body {
 /*--Landing Page--*/
 
 #landing-img {
-	 background-image:url('assets/images/landing1.jpg');
+	 background-image:url('../images/landing1.jpg');
 	background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
