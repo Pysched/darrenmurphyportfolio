@@ -31,7 +31,7 @@ This project was tested extensively for responsiveness at 3 breakpoints. It was 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting the url above in this document.
+To run locally, you can clone this repository directly into the editor of your choice by pasting the gut url https://github.com/Pysched/darrenmurphyportfolio.git into your browser.
 ## Credits
 ### Content
 All content on the “Home”, "About Me ", "Work ", “Skills”, “Contact” and “CV” section for this portfolio site were written by me. 
