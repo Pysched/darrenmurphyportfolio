@@ -27,7 +27,7 @@ The CV Section features 2 button that will either download the pdf of my CV for 
 In the future I would like to add actually links to my works as well as adding images / screen shots as examples for users to preview my works.
 I would also like to implement a carosel on the landing page to ilustrate some more examples of my passions
 ## Testing
-This project was tested extensively for responsiveness and 
+This project was tested extensively for responsiveness at 3 breakpoints. It was also test in Firefox, Chrome.
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
@@ -36,13 +36,16 @@ To run locally, you can clone this repository directly into the editor of your c
 ### Content
 All content on the “Home”, "About Me ", "Work ", “Skills”, “Contact” and “CV” section for this portfolio site were written by me. 
 ### Media
-All images were sources online from google images
+All images were sourced online from google images
 ### Acknowledgements
 
 The following features were learned about and modifed for implementation within the portfolio site:
 
- Back to top function - Modified from a tutorial found at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top from W3C.
- The scrollspy feature was located here: https://getbootstrap.com/docs/4.0/components/scrollspy/ from getbootstrap, the supporting documentation provided a tutorial on how to implement this feature correctly.
+Back to top function - Modified from a tutorial found at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top from W3C.
+ 
+The scrollspy feature was located here: https://getbootstrap.com/docs/4.0/components/scrollspy/ from getbootstrap, the supporting documentation provided a tutorial on how to implement this feature correctly.
+
+Pie Chart Used in Skills Section Modified from a tutorial located at https://canvasjs.com/javascript-charts/pie-chart-legends/ - by Canvasjs
  
  
 
