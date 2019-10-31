@@ -64,7 +64,7 @@ Google fonts is used for the following font purposes:
 ### GitHub repository
 
 This website is hosted on GitHub
-Project name: PeterKellett/Project-1
+Project name: Pysched/darrenmurphyportfolio
 GitHub repository: https://pysched.github.io/darrenmurphyportfolio/index.html
 Demo link: https://pysched.github.io/darrenmurphyportfolio/index.html
 
@@ -94,7 +94,7 @@ Navigation menu - sticky top
 
 
 ## WIREFRAME
-![home page wireframe](https://res.cloudinary.com/dfboxofas/image/upload/v1570031064/Project-1-readme/project-1-wireframe-1.1_ldptvt.jpg)
+https://github.com/Pysched/darrenmurphyportfolio/wireframes/home.jpg
 
 
 ## FEATURES
@@ -144,9 +144,9 @@ The about section contain 3 bootstrap accordian cards that drop down to reveal f
  - background-color:rgb(25,37,65)
  - border-bottom:rgba(0,0,0,0.6)
  Hobbies
- - background-color:rgb(25,37,65);
- - border-bottom:rgba(0,0,0,0.6);
-Font : Ubuntu
+ - background-color:rgb(25,37,65)
+ - border-bottom:rgba(0,0,0,0.6)
+ Font : Ubuntu
 
 ### Work Section
 index.html#work-bookmark  
@@ -188,8 +188,8 @@ https://github.com/Pysched/darrenmurphyportfolio/assets/images/phone.jpg
 - Input fields have attribute [required]
 
 ### Footer CV Section
-- background-color: rgba(125, 44, 44, 0.6);
-- color: rgb(250, 250, 250);  
+- background-color:#181818
+- color: #fff 
 
 The footer consits of sections.
 ##### Footer / CV Section
