@@ -1,405 +1,344 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Darren Murphy Portfolio</title>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+  <title>Darren Murphy Portfolio</title> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" /> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" /> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" /> 
+ </head> 
+ <body data-spy="scroll" data-target="#navbarLD"> 
+  <!-- Start Back to Top Button --> 
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button> 
+  <!-- End Back to top button --> 
+  <!-- Start Home Section --> 
+  <div id="home"> 
+   <!-- Start Navigation --> 
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> 
+    <a class="navbar-brand" href="#">DM</a> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLD" aria-controls="navbarLD" aria-expanded="true" aria-label="toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+    <div class="collapse navbar-collapse" id="navbarLD"> 
+     <ul class="navbar-nav ml-auto"> 
+      <li class="nav-item"> <a class="nav-link" href="#home">Home</a> </li> 
+      <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li> 
+      <li class="nav-item"> <a class="nav-link" href="#work">Work</a> </li> 
+      <li class="nav-item"> <a class="nav-link" href="#skills">Skills</a> </li> 
+      <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li> 
+      <li class="nav-item"> <a class="nav-link" href="assets/cv/cv.pdf">CV</a> </li> 
+     </ul> 
+    </div> 
+   </nav> 
+  </div> 
+  <!-- End Navigation --> 
+  <!-- Start Landing Page Section --> 
+  <div class="landing" id="landing-img"> 
+   <div class="caption text-center"> 
+    <h1>Darren Murphy</h1> 
+    <h3>Full Stack Software Developer</h3> 
+    <h3>Creative Digital Media Specialist</h3> 
+    <a class="btn btn-danger" href="#about">Explore</a> 
+   </div> 
+   <!-- End Landing Page Section --> 
+  </div> 
+  <!-- End Home Section --> 
+  <!-- Start About Section --> 
+  <div id="about" class="offset"> 
+   <div class="col-xs-12 col-sm-12 col-md-4" id="about-space"> 
+    <h1>About</h1> 
+    <hr class="line" /> 
+   </div> 
+   <div class=" col-xs-12 col-sm-6 text-left"> 
+    <p class="about-me">I am a creative, logical and focused designer, who enjoys new challenges, new idea's and working with people to solve problems and create engaging digital media content. My academic and professional experience has given me a strong base to learn and grow in the creative industries.<br /><br /> When I'm not crafting the latest digital venture, I can often be found out and about, hiking the next mountain, figuring out origami puzzles or strumming my guitar like a semi amatuer professional!! fascinated by science, space and the universe If I wasn't doing this I'd be an astronaut! </p> 
+   </div> 
+   <div id="accordion"> 
+    <div class="col-xs-12 col-sm-12 col-md-4"> 
+     <div class="card"> 
+      <div class="card-header" id="education"> 
+       <h5 class="mb-0"> <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Education </button> </h5> 
+      </div> 
+      <div id="collapseOne" class="collapse" aria-labelledby="education" data-parent="#accordion"> 
+       <div class="card-body">
+         1: Educated by the finest minds in Cork Institute of Technology. Honed my craft over several years, by combining The Adobe suite of creative products with my imagination and challenges. 
+        <br />
+        <br /> 2: Spent an exhilerating several months working with an award winning media production house, where I producted work that made it to the Irish big screen as well as several projects that made it to the web. 
+        <br />
+        <br />3: Spent far more years than I'd like to aknowledge learning the ropes of retail management and how to effective lead teams and myself in getting jobs done correctly and on time. 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="col-xs-12 col-sm-12 col-md-4"> 
+     <div class="card"> 
+      <div class="card-header" id="achieve"> 
+       <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Achievements </button> </h5> 
+      </div> 
+      <div id="collapseTwo" class="collapse" aria-labelledby="achieve" data-parent="#accordion"> 
+       <div class="card-body">
+         I sent him out here to stay out of trouble and get a good education, but ... Back home, Will did his homework, mowed the lawn, raked the leaves, and cleared the table.... From what I see [here], all he's learning is how to be a rich kid 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="col-xs-12 col-sm-12 col-md-4"> 
+     <div class="card"> 
+      <div class="card-header" id="hobbies"> 
+       <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Hobbies </button> </h5> 
+      </div> 
+      <div id="collapseThree" class="collapse" aria-labelledby="hobbies" data-parent="#accordion"> 
+       <div class="card-body">
+         1. Tree shaping
+        <br /> It’s a very cool hobby in which you train living trees and other woody plants into artistic shapes or useful structures. Think about growing your own chair! It might take a while though.
+        <br /> 2. Beetle fighting
+        <br /> Choose different types of beetles to fight against each other. Beetle fighting enthusiasts sometimes breed different species of beetles for fighting. You can find videos about it online, but while some might find it interesting, others may think it's a bit gross! 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- End About Section --> 
+  <!-- Start Work Section --> 
+  <div id="work" class="offset"> 
+   <div class=" text-center" id="work-space"> 
+    <h1 class="work">Work</h1> 
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	
-  	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-</head>
-
-<body data-spy="scroll" data-target="#navbarLD">
-
-<!-- Start Back to Top Button -->
-<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
-
-<!-- End Back to top button -->
-
-<!-- Start Home Section -->
-<div id="home">
-
-<!-- Start Navigation -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="#">DM</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLD" aria-controls="navbarLD" aria-expanded="true" aria-label="toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-	</button>
-
-	<div class="collapse navbar-collapse" id="navbarLD">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#home">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#about">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#work">Work</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#skills">Skills</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="assets/cv/cv.pdf">CV</a>
-			</li>
-		</ul>
-	</div>
-</nav>
-</div>
-<!-- End Navigation -->
-
-<!-- Start Landing Page Section -->
-<div class="landing" id="landing-img">
-
-<div class="caption text-center">
-	<h1>Darren Murphy</h1>
-	<h3>Full Stack Software Developer</h3>
-	<h3>Creative Digital Media Specialist</h3>
-	<a class="btn btn-danger" href="#about">Explore</a>
-</div>
-
-<!-- End Landing Page Section -->
+   <!-- Card -->
 
 
-</div>
+<!-- Card deck -->
+    
+    <div class="jumbotron" id="work"> 
+    	
+     <div class="scroll-work">
+     	<div class="row">
+      <div class="col-xs-8 col-sm-6 col-lg-4 project-cards"> 
+       <div class="card-work"> 
+        <div class="card-body"> 
+         <h5 class="card-title">Media Intern</h5> 
+         <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-play-circle fa-3x"></i></h6> 
+         <p class="card-text">Worked as a team member of an award winning Media Production Company</p>     
+         <button type="button" class="btn btn-link1" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal1"> Check it out </button>
 
-
-
-<!-- End Home Section -->
-
-<!-- Start About Section -->
-
-<div id="about" class="offset">
-	<div class=" col-sm-4" id="about-space">
-		<h1>About</h1>
-		<hr class="line">
-	</div>
-	<div class=" col-sm-4 text-left" >
-		<p class="about-me">I am a creative, logical and focused designer, who enjoys new challenges, new idea's and working with people to solve problems and create engaging digital media content. My academic and professional experience has given me a strong base to learn and grow in the creative industries.<br><br>
-
-		When I'm not crafting the latest digital venture, I can often be found out and about, hiking the next mountain, figuring out origami puzzles or strumming my guitar like a semi amatuer professional!! fascinated by science, space and the universe If I wasn't doing this I'd be an astronaut! 
-
-		</p>
-	</div>
-</div>
-<div id="accordion">
-	<div class="col-xs-8 col-sm-4">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Education
-        </button>
-      </h5>
-    </div>
-
-    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-      	1: Educated by the finest minds in Cork Institute of Technology. Honed my craft over several years, by combining The Adobe suite of creative products with my imagination and challenges. <br><br>
-
-      	2: Spent an exhilerating several months working with an award winning media production house, where I producted work that made it to the Irish big screen as well as several projects that made it to the web.
-
-      	<br><br>3: Spent far more years than I'd like to aknowledge learning the ropes of retail management and how to effective lead teams and myself in getting jobs done correctly and on time.
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-8 col-sm-6 col-lg-4 project-cards"> 
+       <div class="card-work"> 
+        <div class="card-body"> 
+         <h5 class="card-title">UI / UX</h5> 
+         <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-sliders-h fa-3x"></i> </h6> 
+         <p class="card-text">Working as a UI / UX Designer, evaluating accessibility for the CSO</p>
+         <button type="button" class="btn btn-link1" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal1"> Check it out </button> 
        
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="col-xs-6 col-sm-4">
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Achievements
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-        I sent him out here to stay out of trouble and get a good education, but ... Back home, Will did his homework, mowed the lawn, raked the leaves, and cleared the table.... From what I see [here], all he's learning is how to be a rich kid
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="col-xs-6 col-sm-4">
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Hobbies
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-        1. Tree shaping<br>
-        It’s a very cool hobby in which you train living trees and other woody plants into artistic shapes or useful structures. Think about growing your own chair! It might take a while though.<br>
-        2. Beetle fighting<br>
-        Choose different types of beetles to fight against each other. Beetle fighting enthusiasts sometimes breed different species of beetles for fighting. You can find videos about it online, but while some might find it interesting, others may think it's a bit gross!
-
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<br><br><br>
-
-
-<!-- End About Section -->
-
-<!-- Start Work Section -->
-<div id="work" class="offset">
-<!-- Start jumbotron Section -->
-<div class="container">
-		<div class="col-12 text-left">
-			<h1 class="work">Work</h1>
-		</div>
-		<div class="row text-center">
-			<div class="col-md-4">
-				<div class="work">
-					<i class="fas fa-play-circle fa-3x"></i>
-					<h3>Media Intern</h3>
-					<p>Worked as a team member of an award winning Media Production Company</p>
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<div class="work">
-					<i class="fas fa-sliders-h fa-3x"></i>
-					<h3>UI / UX Designer</h3>
-					<p>Working as a UI / UX Designer, evaluating accessibility and usability for the CSO</p>
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<div class="work">
-					<i class="fab fa-wpforms fa-3x"></i>
-					<h3>Graphic Designer</h3>
-					<p>Designed, customised and produced the Portrane Summer festival Brochure and advertisments</p>
-				</div>
-			</div>
-		
-		</div><!--- End Row -->
-		
-
-<div class="container text-center workcard">
-	<div class="row">
-	<div class="col-md">
-		<div class="card" style="width: 18rem;">
-  			<img class="card-img-top" src="../images/login.png" alt="Card image cap">
-  				<div class="card-body">
-    				<h5 class="card-title">VFX</h5><i class="fa fa-magic fa-2x"></i>
-   					<p class="card-text">Blasted together with a dash of AfterEffects</p>
-    				<br>
-   					<a href="#" class="btn btn-primary">Check it out</a>
-  				</div>
-		</div>
-	</div>
-
-
-	<div class="col-md">				
-		<div class="card" style="width: 18rem;">
-  			<img class="card-img-top" src="../images/login.png" alt="Card image cap">
-  				<div class="card-body">
-    				<h5 class="card-title">HTML5</h5><i class="fa fa-magic fa-2x"></i>
-    				<p class="card-text">Coding to a fine tee with lashings HTML5</p>
-    				<br>
-    				<a href="#" class="btn btn-primary">Check it out</a>
-  				</div>
-			</div>
-		</div>
-
-	<div class="col-md">		
-		<div class="card" style="width: 18rem;">
-  			<img class="card-img-top" src="../images/login.png" alt="Card image cap">
-  				<div class="card-body">
-    				<h5 class="card-title">Indesign</h5><i class="fa fa-magic fa-2x"></i>
-    				<p class="card-text">Stitched together with a dash of Indesign</p>
-    				<br>
-    				<a href="#" class="btn btn-primary">Check it out</a>
-  				</div><br><br><br>
-		</div>
-	</div>
-</div>
-</div>
-</div>
-
-
-
-
-<!-- End Work Section -->
-
-<!-- Start Skills Section -->
-<div id="skills" class="offset">
-	<div id="skills-space">
-		<div class="container">
-	<h1>Skills</h1>
-<div class="row">
-	<div class="col-xs-12 col-md-6">
-		<h5 class="skills-h5">HTML5</h5>
-		<div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<br>
-<h5 class="skills-h5">CSS3</h5>
-<div class="progress">
-  <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<br>
-<h5 class="skills-h5">JavaScript</h5>
-<div class="progress">
-  <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<br>
-<h5 class="skills-h5">PHP</h5>
-<div class="progress">
-  <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<br>
-<h5 class="skills-h5">Adobe</h5>
-<div class="progress">
-  <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-
-<br>
-<h5 class="skills-h5">Photography</h5>
-<div class="progress">
-<div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-</div>
-
-<div class="col-md-6" id="skills-q">
-	As the world we live in is so unpredictable, the ability to learn and to adapt to change is imperative, alonside creativity, problem-solving and communication skills.<br><br>
-	There are plenty of skills I've learned from playing video games. It's more interactive than watching TV, because there are problems to solve as you are using your brain.
-	<br><br>
-	I don't know who you are. I don't know what you want. If you are looking for ransom I can tell you I don't have money, but what I do have are a very particular set of skills. Skills I have acquired over a very long career. Skills that make me a nightmare for people like you. <br><br>If you let my daughter go now that'll be the end of it. I will not look for you, I will not pursue you, but if you don't, I will look for you, I will find you and I will kill you.
-	</div>
-
-	</div><!-- End Row Dark -->
-
-
-</div><!--- End Fixed Background -->
-
-</div>
-</div>
-
-
-<!-- End Skills Section -->
-
-<!-- Start Contact Section -->
-<div id="contact" class="offset">
-	<div id="contact-space">
-	
-	</div>
-	<div class="container">
-		<div class=" col-md-6 contact-form center ">
-			<h1>Contact</h1>
-				<form id ="contact-form">
-					<div class="contact">
-						<div class="form-group">
-							<input type="text" class="form-control" id="exampleInputName" name="Name" placeholder="Name" required>
-						</div>
-						
-					</div>
-
-					<div class="contact">
-						<div class="form-group">
-							<input type="text" class="form-control" id="exampleInputPhone" name="phone" placeholder="Phone" required>
-						</div>
-						
-					</div>
-
-					<div class="contact">
-						<div class="form-group">
-							<input type="email" class="form-control" id="exampleInputEmail" name="email" placeholder="Email" required>
-						</div>
-						
-					</div>
-
-					<div class="contact">
-						<div class="form-group message">
-							<textarea type="text" class="form-control" id="exampleInputMessage" name="message" rows ="6" placeholder="Message" required></textarea>
-						</div>
-					</div>
-							
-			
-   <!-- Button to Open the Modal -->
-  <button type="button" class="btn btn-danger" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal">
-    Submit
-  </button>
-</form>
-  <!-- The Modal -->
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title ">Contact Form</h4>
-        </div>
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-8 col-sm-6 col-lg-4 project-cards"> 
+       <div class="card-work"> 
+        <div class="card-body"> 
+         <h5 class="card-title">Graphic Design</h5> 
+         <h6 class="card-subtitle mb-2 text-muted"><i class="fab fa-wpforms fa-3x"></i></h6> 
+         <p class="card-text">Designed, customised and produced the Portrane Summer festival Brochure </p> 
+         <button type="button" class="btn btn-link1" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal1"> Check it out </button>
         
-        <!-- Modal body -->
-        <div class="modal-body text-center">
-          Thank you for pressing the submit button, however in this case, this is just an example form ... and this is just an example modal respnse of submission. ciao!
-        </div>
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-8 col-sm-6 col-lg-4 project-cards"> 
+       <div class="card-work"> 
+        <div class="card-body"> 
+         <h5 class="card-title">Unreal 4 Game</h5> 
+         <h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-gamepad fa-3x"></i></h6> 
+         <p class="card-text">My First bout into the world of game development, 3d modelling and interactions</p> 
+         <button type="button" class="btn btn-link1" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal1"> Check it out </button>
+       
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-8 col-sm-6 col-lg-4 project-cards"> 
+       <div class="card-work"> 
+        <div class="card-body"> 
+         <h5 class="card-title">Photography</h5> 
+         <h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-camera fa-3x" aria-hidden="true"></i></h6> 
+         <p class="card-text">A place for me to show off my photography skills, shome are quite good too!</p> 
+         <button type="button" class="btn btn-link1" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal1"> Check it out </button>
         
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</div>
+       
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-8 col-sm-6 col-lg-4 project-cards"> 
+       <div class="card-work"> 
+        <div class="card-body"> 
+         <h5 class="card-title">Web Design</h5> 
+         <h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-code fa-3x " aria-hidden="true"></i></h6> 
+         <p class="card-text">Take a look at the various coding projects I have completed</p> 
+         <button type="button" class="btn btn-link1" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal1"> Check it out </button> 
+    
+       
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
   
-</div>
+     <!-- The Modal --> 
+     <div class="modal fade" id="myModal1"> 
+      <div class="modal-dialog"> 
+       <div class="modal-content"> 
+        <!-- Modal Header --> 
+        <div class="modal-header"> 
+         <h4 class="modal-title">Works</h4> 
+        </div> 
+        <!-- Modal body --> 
+        <div class="modal-body text-center">
+          Thank you for stopping by and checking out my works, current this modal is just an example, be sure to check back again for future updates </div> 
+        <!-- Modal footer --> 
+        <div class="modal-footer"> 
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> 
+        </div> 
+       </div> 
+  
+   </div> 
+  </div>
 
-<br><br><br>
+</div>
 
  
+  <!-- End Work Section --> 
+  <!-- Start Skills Section --> 
+  <div id="skills" class="offset"> 
+   <div id="skills-space"> 
+    <div class="container"> 
+     <h1>Skills</h1> 
 
-<!-- End Contact Section -->
-
-<!-- Start CV Section -->
-<div id="cv" class="offset">
-	<div id="cv-space">
-		 <div class="container">
-		 	<h1>CV / Social </h1>
-            <div class="row foot text-center ">
-                <div class="col-xs col-sm icons">
-                	<a href="https://www.youtube.com/in/darrenmurphy" target="_blank"><i class="fab fa-youtube fa-3x alignment "></i></a>
-                    <a href="https://www.linkedin.com/in/darrenmurphy" target="_blank"><i class="fab fa-linkedin-in fa-3x alignment"></i></a>
-                    <a href="https://www.github.com/darrenmurphy" target="_blank"><i class="fab fa-github fa-3x alignment"></i></a>
-                     <a href="https://www.github.com/darrenmurphy" target="_blank"><i class="fab fa-facebook  fa-3x alignment"></i></a>
-                    <a href="assets/cv/cv.pdf" download><i class="fas fa-file-download fa-3x alignment"></i></a>
-                  
-                </div>
-            </div>
-        </div>
+     <div class="row"> 
+      <div class="col-xs-12 col-md-6"> 
+       <h5 class="skills-h5">HTML5</h5> 
+       <div class="progress"> 
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div> 
+       </div> 
+       <br /> 
+       <h5 class="skills-h5">CSS3</h5> 
+       <div class="progress"> 
+        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div> 
+       </div> 
+       <br /> 
+       <h5 class="skills-h5">JavaScript</h5> 
+       <div class="progress"> 
+        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div> 
+       </div> 
+       <br /> 
+       <h5 class="skills-h5">PHP</h5> 
+       <div class="progress"> 
+        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> 
+       </div> 
+       <br /> 
+       <h5 class="skills-h5">Adobe</h5> 
+       <div class="progress"> 
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
+       </div> 
+       <br /> 
+       <h5 class="skills-h5">Photography</h5> 
+       <div class="progress"> 
+        <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-md-6" id="skills-q">
+        As the world we live in is so unpredictable, the ability to learn and to adapt to change is imperative, alonside creativity, problem-solving and communication skills.
+       <br />
+       <br /> There are plenty of skills I've learned from playing video games. It's more interactive than watching TV, because there are problems to solve as you are using your brain. 
+       <br />
+       <br /> 
+       <p id="skills-s"> I don't know who you are. I don't know what you want. If you are looking for ransom I can tell you I don't have money, but what I do have are a very particular set of skills. Skills I have acquired over a very long career.<br /><br />Skills that make me a nightmare for people like you.If you let my daughter go now that'll be the end of it. I will not look for you, I will not pursue you, but if you don't, I will look for you, I will find you and I will kill you. </p>
+      </div> 
+     </div>
+     <!-- End Row Dark --> 
     </div>
-</div>
-
-
-<!-- End CV Section -->
-
-
-
-
-
-<!---Scripts-->
-<script src="assets/js/index.js"></script>
-
-</body>
+    <!-- End Fixed Background --> 
+   </div> 
+  </div> 
+  <!-- End Skills Section --> 
+  <!-- Start Contact Section --> 
+  <div id="contact" class="offset"> 
+   <div id="contact-space"> 
+   </div> 
+   <div class="container"> 
+    <div class=" col-md-8 contact-form center "> 
+     <h1>Contact</h1> 
+     <form id="contact-form"> 
+      <div class="contact"> 
+       <div class="form-group"> 
+        <input type="text" class="form-control" id="exampleInputName" name="Name" placeholder="Name" required="" /> 
+       </div> 
+      </div> 
+      <div class="contact"> 
+       <div class="form-group"> 
+        <input type="text" class="form-control" id="exampleInputPhone" name="phone" placeholder="Phone" required="" /> 
+       </div> 
+      </div> 
+      <div class="contact"> 
+       <div class="form-group"> 
+        <input type="email" class="form-control" id="exampleInputEmail" name="email" placeholder="Email" required="" /> 
+       </div> 
+      </div> 
+      <div class="contact"> 
+       <div class="form-group message"> 
+        <textarea type="text" class="form-control" id="exampleInputMessage" name="message" rows="6" placeholder="Message" required=""></textarea> 
+       </div> 
+      </div> 
+      <!-- Button to Open the Modal --> 
+      <button type="button" class="btn btn-danger" style="background-color: #E27F26" data-toggle="modal" data-target="#myModal"> Submit </button> 
+     </form> 
+     <!-- The Modal --> 
+     <div class="modal fade" id="myModal"> 
+      <div class="modal-dialog"> 
+       <div class="modal-content"> 
+        <!-- Modal Header --> 
+        <div class="modal-header"> 
+         <h4 class="modal-title ">Contact Form</h4> 
+        </div> 
+        <!-- Modal body --> 
+        <div class="modal-body text-center">
+          Thank you for pressing the submit button, however in this case, this is just an example form  and this is just an example modal response of submission. 
+        </div> 
+        <!-- Modal footer --> 
+        <div class="modal-footer"> 
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- End Contact Section --> 
+  <!-- Start CV Section --> 
+  <div id="cv" class="offset"> 
+   <div id="cv-space"> 
+    <div class="container"> 
+     <h1>CV / Social </h1> 
+     <div class="row foot text-center "> 
+      <div class="col-xs col-sm icons"> 
+       <a href="https://www.youtube.com/in/darrenmurphy" target="_blank"><i class="fab fa-youtube fa-3x alignment "></i></a> 
+       <a href="https://www.linkedin.com/in/darrenmurphy" target="_blank"><i class="fab fa-linkedin-in fa-3x alignment"></i></a> 
+       <a href="https://www.github.com/darrenmurphy" target="_blank"><i class="fab fa-github fa-3x alignment"></i></a> 
+       <a href="https://www.github.com/darrenmurphy" target="_blank"><i class="fab fa-facebook  fa-3x alignment"></i></a> 
+       <a href="assets/cv/cv.pdf" download=""><i class="fas fa-file-download fa-3x alignment"></i></a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- End CV Section --> 
+  <!--Scripts--> 
+  <script src="assets/js/index.js"></script>  
+ </body>
 </html>
+
+
