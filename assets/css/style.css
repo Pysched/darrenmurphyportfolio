@@ -56,13 +56,21 @@ body {
 }
 
 #topBtn:hover {
-  background-color: #555;
+  background-color: rgb(25,37,65);
 }
 
 .btn.btn-danger {
   border: none;
   outline: none;
   background-color: #E27F26;
+  color: white;
+  cursor: pointer;
+}
+
+.btn.btn-danger:hover {
+  border: none;
+  outline: none;
+  background-color: rgb(25,37,65);
   color: white;
   cursor: pointer;
 }
@@ -149,6 +157,7 @@ font-size:2.5rem;
 	background-color:#fff;
 	color:#575757;
 	padding-right:18px;
+	height:100vh;
 	}
 
 @media (max-width:576px){
@@ -166,6 +175,7 @@ font-size:2.5rem;
 #about h1 {
 	text-align: center;
 	padding-left:20px;
+	color:rgb(25,37,65);
 }
 
 .about-me {
@@ -209,17 +219,17 @@ button.btn.btn-link1:hover{
 }
 
 #education{
-background-color:rgba(0,0,0,.6);
+background-color:rgb(25,37,65);
 border-bottom:rgba(0,0,0,0.6);
 }
 
 #achieve{
-background-color:rgba(0,0,0,.6);
+background-color:rgb(25,37,65);
 border-bottom:rgba(0,0,0,0.6);
 }
 
 #hobbies{
-background-color:rgba(0,0,0,.6);
+background-color:rgb(25,37,65);
 border-bottom:rgba(0,0,0,0.6);
 }
 
@@ -232,6 +242,11 @@ border-bottom:rgba(0,0,0,0.6);
 	padding:0;
 }
 
+/*------I Class --*/
+#work-symbol {
+	color:rgb(23,37,65)!important;
+}
+
 /*------Work------*/
 
 #work{
@@ -240,7 +255,7 @@ border-bottom:rgba(0,0,0,0.6);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-    background-position: bottom;
+   
     width: 100vw;
     padding-bottom: 30px;
     z-index: 1;
@@ -300,17 +315,27 @@ h3{
     align-items: center;
 }
 
+h5.card-title {
+	color:#3a3a3a;
+}
+
+p.card-text {
+	color:rgb(25,37,65);
+}
+
 
 
 /*------Skills------*/
 
 #skills{
-	height:60vh;
-	background-color:#181818;	
+	background-image: url('../images/skillsbg.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-    background-position: bottom;
+    	background-position: bottom;
+       	width: 100vw;
+   	padding-bottom: 50px;
+   	z-index: 1;
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
@@ -345,6 +370,11 @@ h3{
 
 .skills-h5 {
 color:#fff;}
+
+h2.header-coding {
+	text-align: center;
+	color:#fff;
+}
 
 /*------Contact------*/
 
@@ -448,6 +478,9 @@ color:#fff;}
 .card:hover {
     opacity: 1;
 }
+.card-work:hover {
+    opacity: 1;
+}
 
 @media (max-width: 768px) and (min-width: 375px) {
 	#accordion {
@@ -475,6 +508,10 @@ button.btn.btn-link{
 /* Add a hover effect  */
 .fab:hover {
   opacity: 0.7;
+}
+
+.row.foot.text-center {
+	padding:0;
 }
 
 
