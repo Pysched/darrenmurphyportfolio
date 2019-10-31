@@ -94,9 +94,11 @@ Navigation menu - sticky top
 
 
 ## WIREFRAME
+The Wireframes that I initial devised to design the website can be found in the github repository under the following structure
+
  - Wireframes/Contact.jpg
- - https://github.com/Pysched/darrenmurphyportfolio/Wireframes/work-about.jpg
- - https://github.com/Pysched/darrenmurphyportfolio/Wireframes/contact-cv.jpg
+ - Wireframes/work-about.jpg
+ - Wireframes/contact-cv.jpg
 
 
 
