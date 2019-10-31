@@ -94,7 +94,10 @@ Navigation menu - sticky top
 
 
 ## WIREFRAME
-https://github.com/Pysched/darrenmurphyportfolio/wireframes/home.jpg
+https://github.com/Pysched/darrenmurphyportfolio/Wireframes/Contact.jpg
+https://github.com/Pysched/darrenmurphyportfolio/Wireframes/work-about.jpg
+https://github.com/Pysched/darrenmurphyportfolio/Wireframes/contact-cv.jpg
+
 
 
 ## FEATURES
