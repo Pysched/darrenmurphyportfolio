@@ -92,7 +92,7 @@ body {
 }
 
 .caption h1 {
-	font-size:3.8rem;
+	font-size:3rem;
 	font-weight: 700;
 	letter-spacing:.3rem;
 	text-shadow:.1rem .1rem .8rem black;
@@ -100,11 +100,29 @@ body {
 }
 
 .caption h3{
-	font-size: 2rem;
+	font-size: 1.8rem;
 	text-shadow: .1rem .1rem .5rem black;
 	padding-bottom:1.0rem;
 }
 
+@media (max-width:576px){
+	.caption h1 {
+font-size:1.8rem;
+	}
+	.caption h3 {
+		font-size:.8rem;
+	}
+}
+
+@media (max-width:764px){
+	.caption h1 {
+font-size:2.5rem;
+	}
+	.caption h3 {
+	
+		font-size:1.5rem;
+	}
+}
 .btn-lg {
 	color:#00AF86;
 	border-width:medium;
@@ -122,19 +140,31 @@ body {
 /*------About-me------*/
 
 #about 
-	{background-image: url('../images/profile1.png');
+	{
+	background-image: url('../images/profile1.png');
 	background-position: center;
 	background-size: cover;
+	padding-bottom:50px;
 	width: 100vw;
 	background-color:#fff;
-	color:#3a3a3a;
+	color:#575757;
+	padding-right:18px;
 	}
+
+@media (max-width:576px){
+	#about{
+		background-image:none;
+		background-color:#fff;
+		color:#3a3a3a;
+	}
+}
 
 #about-space{
 	padding-top:80px;	
 }
 
 #about h1 {
+	text-align: center;
 	padding-left:20px;
 }
 
@@ -147,6 +177,61 @@ body {
 }
 p {margin-bottom:0;}
 
+button.btn.btn-link{
+	color:orange;
+	text-decoration: none;
+}
+
+a.btn.btn-link{
+	margin-top:20px;
+	color:#3a3a3a;
+	background-color:#E27F26;
+	text-decoration: none;
+}
+
+a.btn.btn-link:hover{
+	margin-top:20px;
+	color:#fff;
+	background-color:orange;
+}
+
+button.btn.btn-link1{
+	margin-top:20px;
+	color:#3a3a3a;
+	background-color:#E27F26;
+	text-decoration: none;
+}
+
+button.btn.btn-link1:hover{
+	margin-top:20px;
+	color:#fff;
+	background-color:orange;
+}
+
+#education{
+background-color:rgba(0,0,0,.6);
+border-bottom:rgba(0,0,0,0.6);
+}
+
+#achieve{
+background-color:rgba(0,0,0,.6);
+border-bottom:rgba(0,0,0,0.6);
+}
+
+#hobbies{
+background-color:rgba(0,0,0,.6);
+border-bottom:rgba(0,0,0,0.6);
+}
+
+.card-body{
+	color:#e27f26;
+}
+
+
+.jumbotron {
+	padding:0;
+}
+
 /*------Work------*/
 
 #work{
@@ -156,9 +241,8 @@ p {margin-bottom:0;}
 	background-size: cover;
 	background-attachment: fixed;
     background-position: bottom;
-    height: 120vh;
     width: 100vw;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
     z-index: 1;
 }
 
@@ -168,7 +252,6 @@ h3{
 
 #work h1 {
 	padding:2.5rem 1.3rem;
-	
 	color:#fff;
 }
 
@@ -176,10 +259,48 @@ h3{
 	padding-top:50px;
 }
 
-.workcard {
+.work-card {
 	padding-left: 2.5rem;
 	padding-top:2.5rem;
 }
+.project-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-work {
+    background-color: #fdfdfd;
+    border-radius: 2.5%;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 50%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.8;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.row{
+	padding:2.3em;
+}
+
+.col-xs-6 {
+    align-items: center;
+}
+
+
 
 /*------Skills------*/
 
@@ -193,6 +314,8 @@ h3{
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
+    padding-bottom:100px;
+    height:auto;
 }
 
 #skills h1{
@@ -209,6 +332,16 @@ h3{
 	margin-top:28px;
 	color:#fff;
 }
+#skills-s {
+	margin-top:28px;
+	color:#fff;
+}
+
+@media (max-width: 764px){
+#skills-s{
+	display:none;
+}
+}
 
 .skills-h5 {
 color:#fff;}
@@ -216,14 +349,14 @@ color:#fff;}
 /*------Contact------*/
 
 #contact{
-	height:80vh;
+	
 	background-image: url('../images/phone.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
     	background-position: bottom;
        	width: 100vw;
-   	margin-bottom: 0px;
+   	padding-bottom: 50px;
    	z-index: 1;
 }
 
@@ -241,7 +374,7 @@ color:#fff;}
 /*------CV------*/
 
 #cv{
-	height:30vh;
+	height:35vh;
 	background-color:#181818;
 }
 #cv h1 {
@@ -287,6 +420,7 @@ color:#fff;}
 .modal.show .modal-dialog {
 	top:30%;
 }
+
 
 /*---------Cards About Me----*/
 .aboutme{
@@ -408,5 +542,3 @@ a {
 .alignment {
     line-height: 2px;
 }
-
-
