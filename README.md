@@ -223,10 +223,16 @@ The CV Section features 2 button that will either download the pdf of my CV for 
 
 ### Features Left to Implement
 In the future I would like to add actually links to my works as well as adding images / screen shots as examples for users to preview my works.
-I would also like to implement a carosel on the landing page to ilustrate some more examples of my passions
+I would also like to implement a carosel on the landing page to ilustrate some more examples of my passions.
+
+Fixing the issue with a white margin due to the navigation bar in mobile size as detailed below.
+
+## Bugs
+   - On certain mobile devices an issue occers whereby all the content is only taking up about 80% of width of the screen and the navbar is beyond the width of the screen, this leads to a wihite area running down the right hand edge of the screen. When testing this using the developer tools it is not apparent, on a smasung galaxxy this issue was noticed, however in desktop mode on the phone this issue wasnt present.
+   - The modal pop up, animates in from a certain height and transitions down to the center, however when closing out it does not transitionback out again. 
 # Testing
 ## Tools
-Testing has been carried out using the following devices/browsers
+Testing has been carried out using the following browsers
 - Desktop
     - Chrome
     - Edge
